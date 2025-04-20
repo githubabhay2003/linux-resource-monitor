@@ -1,0 +1,12 @@
+[Unit]
+Description=Linux Resource Monitoring and Alert System
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/lrmas/alerts.py
+WorkingDirectory=/opt/lrmas
+Restart=always
+User=ec2-user
+
+[Install]
+WantedBy=multi-user.target
