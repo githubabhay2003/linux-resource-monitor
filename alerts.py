@@ -10,9 +10,9 @@ MEMORY_THRESHOLD = 1  # in percent
 DISK_THRESHOLD = 1  # in percent
 
 # Email Setup
-EMAIL_ADDRESS = "abhaykumarsaini9982@gmail.com"
-EMAIL_PASSWORD = "lofq qnts mpgw nwts"
-TO_EMAIL = "sainisahil9982@gmail.com"
+EMAIL_ADDRESS = "sender@gmail.com"
+EMAIL_PASSWORD = "gmail_app password"
+TO_EMAIL = "receiver@gmail.com"
 
 def send_email_alert(subject, body):
     msg = MIMEText(body)
